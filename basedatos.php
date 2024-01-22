@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    $mysqli = new mysqli("127.0.0.1", "root", "Database1Guillermo_", "ab", 3306);
+    $mysqli = new mysqli("127.0.0.1", "root", "Database1Guillermo_", "abpro", 3306);
     if ($mysqli->connect_errno) {
         echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }

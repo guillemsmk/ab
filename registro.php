@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>SIGN UP</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
      <form action="registro2.php" method="post">
