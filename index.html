@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TalleresAB</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+</head>
+<!--INICIO-->
+
+<body>
+        <header>
+                <div class="logo-container">
+                        <div class="logo"><img src="img/17.png" width="150%"></div>
+                </div>
+                <div class="navbar">
+                        <div class="navbar2">
+                                <a href="registro.php">Registrarse</a>
+                                <a href="login.php">Iniciar sesión</a>
+                        </div>
+                <div class="carrito-container">
+                        <div class="submenu">
+                                <img src="img/18.png" id="img-carrito" width="100%">
+                                <div id="carrito">
+                                        <table id="lista-carrito">
+                                                <thead> 
+                                                        <tr>         
+                                                                <th>Imagen</th>         
+                                                                <th>Nombre</th>         
+                                                                <th>Precio</th>         
+                                                                <th></th> 
+                                                        </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                        </table>
+                                        <a href="#" id="vaciar-carrito" class="agregar-carrito btn-3">Vaciar Carrito</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="envios">
+                        <p>Envío gratis a partir de 200€</p>
+                        <p>Envío gratuito para miembros</p>
+                        <p>Envíos entre 3 y 5 días</p>
+                </div>
+                <div class="horademoverse">
+                        <div class="textoMoverse">
+                                <h1 class="extra" style="font-weight: 1800; font-size: 50px;">TALLER ESPECIALIZADO</h1>
+                                <h2 class="extra" style="font-size: 18px;">Todo lo que necesitas para tu coche</h2>
+                        </div>
+                </div>
+        </header>
+        <br>
+        <main>
+                <!--PRINCIPAL-->
+                <section class="imagen">
+                        <article>
+                                <img src="img/1.png" style="width:15%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/3.png" style="width:15%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/4.png" style="width:15%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/5.png" style="width:15%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/6.png" style="width:15%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/16.png" style="width:15%" alt="">
+                        </article>
+                </section>
+                <section class="productos">
+                        <h2 style="font-weight: bolder; font-size: 40px; color: whitesmoke; text-align: center;">
+                                NUESTRAS ESPECIALIDADES</h2>
+                        <div class="productos-container">
+                                <div class="producto">
+                                        <img src="img/7.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Suspensión roscada Blistein</h3>
+                                                <p>Suspensión roscada de 10mm-30mm para BMW E46</p>
+                                                <p class="precio">599,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/19.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Muelles H&R</h3>
+                                                <p>4 muelles 35/35mm para Hyundai y Kia</p>
+                                                <p class="precio">215,69€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/20.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Muelles Eibach Pro-Kit</h3>
+                                                <p>Juego de 4 muelles para Mini One y Cooper</p>
+                                                <p class="precio">222,50€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/21.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Suspensión roscada Blistein</h3>
+                                                <p>9 niveles de ajuste de altura para grupo VAG</p>
+                                                <p class="precio">1599,00€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/22.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Llantas Rotiform LAS-R</h3>
+                                                <p>Todo tipo de dimensiones en color Gris Antracita y Plata</p>
+                                                <p class="precio">333,00€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/23.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Llantas Rotiform OZR</h3>
+                                                <p>Mínimo 18" en Negro Mate y Gris Antracita</p>
+                                                <p class="precio">419,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/24.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Llantas HRE P101 FORGED</h3>
+                                                <p>Consultar la disponibilidad a través de nuestro formulario</p>
+                                                <p class="precio">XXX,XX€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/25.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Llantas BBS CH-R</h3>
+                                                <p>Llanta para todo tipo de modelos en Plata Brillante</p>
+                                                <p class="precio">486,42€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/9.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Volante BMW</h3>
+                                                <p>Volante customizable en todos los sentidos de Serie 1-8</p>
+                                                <p class="precio">750,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/26.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Volante Volkswagen 8</h3>
+                                                <p>Volante customizable desde caja 5 a 8</p>
+                                                <p class="precio">599,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/27.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Volante Audi</h3>
+                                                <p>Volante customizable para Audi R8/TT</p>
+                                                <p class="precio">1199,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/28.png" width="50%">
+                                        <div class="product-txt" style="color: whitesmoke;">
+                                                <h3>Volante Mercedes</h3>
+                                                <p>Volante customizable para Mercedes AMG</p>
+                                                <p class="precio">700,99€</p>
+                                                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <section class="categoria">
+                        <h2 style="color: whitesmoke;">MARCAS CON LAS QUE TRABAJAMOS</h2>
+                        <article>
+                                <img src="img/10.png" width="100%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/11.png" width="100%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/12.png" width="100%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/13.png" width="100%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/14.png" width="100%" alt="">
+                        </article>
+                        <article>
+                                <img src="img/15.png" width="100%" alt="">
+                        </article>
+                </section>
+        </main>
+        <br>
+        <footer class="final">
+                <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.0043412790023!2d-3.6789887885294457!3d40.47516897131097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229475db5f95f%3A0x4019aedc19807c5!2sC.%20Consuegra%2C%204%2C%2028036%20Madrid!5e0!3m2!1sen!2ses!4v1697020887923!5m2!1sen!2ses"
+                                style="border:0; width:77%; height:200%;" allowfullscreen=" loading=" lazy
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <a href="privacidad.html">
+                                <h4>Política de Privacidad</h4>
+                        </a>
+                        <a href="cookies.html">
+                                <h4>Cookies</h4>
+                        </a>
+                        <a href="contacto.html">
+                                <h4>Contáctanos</h4>
+                        </a>
+                </div>
+        </footer>
+</body>
+
+</html>
